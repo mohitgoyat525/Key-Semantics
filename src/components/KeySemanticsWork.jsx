@@ -4,8 +4,9 @@ import { KEY_SEMANTICS_LIST } from './utils/helper'
 import Lottie from 'lottie-react'
 
 const KeySemanticsWork = () => {
-  return (
-      <div className='container mb-6'>
+    return (
+        <section className='bg-white'>
+      <div className='container mb-6 '>
           <div className='pt-24 max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-7 flex items-center justify-center text-center'>
               <CommonHeading CustomHeading='How does KeySemantics work?' />
           </div>
@@ -17,7 +18,8 @@ const KeySemanticsWork = () => {
               </div>
           ))}
               </div>
-    </div>
+            </div>
+            </section>
   )
 }
 
