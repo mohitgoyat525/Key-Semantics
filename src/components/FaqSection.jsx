@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
-import { FAQ_ITEM_LIST, FAQ_TEXT } from './utils/helper';
+import { FAQ_ITEM_LIST, FAQ_TEXT } from '../utils/helper';
 import CommonButton from '../common/CommonButton';
 import CommonList from '../common/CommonList';
 import CommonFaqDiscription from '../common/CommonFaqDiscription';

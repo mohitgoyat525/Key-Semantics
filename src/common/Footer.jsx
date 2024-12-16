@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FOOTER_LEFT_ICON, FOOTER_RIGHT_ICON } from '../components/utils/icons'
+import { FOOTER_LEFT_ICON, FOOTER_RIGHT_ICON } from '../utils/icons'
 
 const Footer = () => {
   const [name, setName] = useState('');

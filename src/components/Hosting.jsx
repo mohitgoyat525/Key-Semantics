@@ -1,5 +1,5 @@
 import React from 'react'
-import { HOSTING_LIST } from './utils/helper'
+import { HOSTING_LIST } from '../utils/helper'
 
 import CommonSections from '../common/CommonSections'
 const Hosting = () => {

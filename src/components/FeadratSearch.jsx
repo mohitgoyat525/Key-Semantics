@@ -1,6 +1,6 @@
 import React from 'react'
 import CommonSections from '../common/CommonSections'
-import { FEDERATED_SERACH_LIST } from './utils/helper'
+import { FEDERATED_SERACH_LIST } from '../utils/helper'
 const FeadratSearch = () => {
     return (
         <section className='bg-offWhite'>

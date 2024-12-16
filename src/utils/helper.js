@@ -1,7 +1,7 @@
 
-import SearchAnimationThree from '../../lottie/server-search-one.json';
-import SearchAnimationTwo from '../../lottie/server-search-two.json';
-import SearchAnimationOne from '../../lottie/server-search-three.json';
+import SearchAnimationThree from '../lottie/server-search-one.json';
+import SearchAnimationTwo from '../lottie/server-search-two.json';
+import SearchAnimationOne from '../lottie/server-search-three.json';
 import { ARROW_ICON } from "./icons";
 export const KEY_SEMANTICS_LIST = [
   {

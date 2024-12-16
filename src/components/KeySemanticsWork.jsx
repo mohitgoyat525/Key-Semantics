@@ -1,6 +1,6 @@
 import React from 'react'
 import CommonHeading from '../common/CommonHeading'
-import { KEY_SEMANTICS_LIST } from './utils/helper'
+import { KEY_SEMANTICS_LIST } from './../utils/helper'
 import Lottie from 'lottie-react'
 
 const KeySemanticsWork = () => {
