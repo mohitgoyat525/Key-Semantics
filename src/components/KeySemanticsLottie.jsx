@@ -9,7 +9,7 @@ const KeySemanticsLottie = () => {
       <div>
         <Lottie animationData={semanticAnimation} loop={true} className='max-md:hidden shadow-[0px_10px_40px_0px_#41566B0D]' />
         < Lottie animationData={mobileSemanticsAnimation} loop={true} className='md:hidden shadow-[0px_10px_40px_0px_#41566B0D]'/>  
-          </div>
+      </div>
     </div>
   )
 }

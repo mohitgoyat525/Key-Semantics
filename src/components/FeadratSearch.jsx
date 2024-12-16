@@ -21,7 +21,7 @@ const FeadratSearch = () => {
                   </div>
               </div>
               <div className='w-6/12 max-lg:w-full'>
-                  <img src="/assets/images/webp/working-man-img-one.webp" alt="fedrate-Search" className='w-full max-w-[600px] max-lg:mx-auto' />
+                  <img src="/assets/images/webp/working-man-img-one.webp" alt="fedrate-Search" className='w-full max-w-[600px] max-lg:mx-auto max-lg:max-w-none' />
               </div>
           </div>
     </div>
