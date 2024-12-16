@@ -33,14 +33,14 @@ const Footer = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               type="text"
-              className="bg-[#24254B] w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px]"
+              className="bg-darkPurple w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px]"
               placeholder="Name"
             />
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               type="email"
-              className="bg-[#24254B] w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
+              className="bg-darkPurple w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Email"
               required
             />
@@ -48,14 +48,14 @@ const Footer = () => {
               value={company}
               onChange={(e) => setCompany(e.target.value)}
               type="text"
-              className="bg-[#24254B] w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
+              className="bg-darkPurple w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Company"
             />
             <input
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               type="number"
-              className="bg-[#24254B] w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
+              className="bg-darkPurple w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Phone (optional)"
             />
             <p className="text-[10px] font-normal leading-[14px] text-center text-lightPurple pt-4 pb-6">
@@ -73,7 +73,7 @@ const Footer = () => {
           <FOOTER_RIGHT_ICON />
         </p>
       </div>
-      <div className="bg-[#111235] p-6">
+      <div className="bg-offBlue p-6">
         <div className="container flex items-center justify-between max-sm:flex-col max-sm:justify-center">
           <p className="text-xs font-normal text-lightPurple leading-[28px] max-sm:text-center">
             ©2024 KeySemantics GmbH | Ramsenburgweg 24, 9100 Herisau, Switzerland

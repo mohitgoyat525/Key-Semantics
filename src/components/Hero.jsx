@@ -3,7 +3,7 @@ import Header from '../common/Header'
 
 const Hero = () => {
   return (
-    <section className='bg-[#F7F9FB]'>
+    <section className='bg-offWhite'>
     <div className="bg-hero-image bg-cover bg-no-repeat bg-center h-[900px] max-xl:h-full">
       <div className='container'>
         <Header />

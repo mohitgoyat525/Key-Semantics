@@ -12,7 +12,7 @@ function App() {
     <>
       <Hero />
       <KeySemanticsWork />
-      {/* <KeySemanticsLottie/> */}
+      <KeySemanticsLottie/>
       <FaqSection />
       <FeadratSearch />
       <Hosting />

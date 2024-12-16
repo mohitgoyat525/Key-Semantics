@@ -27,7 +27,7 @@ export const FAQ_TEXT = [
   "LLM-powered Question Answering",
 ];
 
-export const FAQ_LIST = [
+export const FAQ_ITEM_LIST = [
   {
     title: "Accordion Heading #one",
     arrowImg: <ARROW_ICON />,

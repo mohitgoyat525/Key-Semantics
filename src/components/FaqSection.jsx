@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
-import { FAQ_LIST, FAQ_TEXT } from './utils/helper';
+import { FAQ_ITEM_LIST, FAQ_TEXT } from './utils/helper';
 import CommonButton from '../common/CommonButton';
-import Lottie from 'lottie-react'
-import semanticAnimation from './../lottie/infography.json';
-import mobileSemanticsAnimation from '../lottie/mobile-infography.json'
 import CommonList from '../common/CommonList';
 import CommonFaqDiscription from '../common/CommonFaqDiscription';
+
 const FaqSection = () => {
     const [expandedIndex, setExpandedIndex] = useState(null);
 
@@ -16,11 +14,6 @@ const FaqSection = () => {
 
     return (
         <section className='bg-offWhite'>
-            <div>
-                <Lottie animationData={semanticAnimation} loop={true} className='max-md:hidden shadow-[0px_10px_40px_0px_#41566B0D] max-w-[1200px] mx-auto h-[558px]' />
-                < Lottie animationData={mobileSemanticsAnimation} loop={true} className='md:hidden shadow-[0px_10px_40px_0px_#41566B0D]' />
-            </div>
-
             <div className='container pt-[164px] max-xl:pt-32 max-lg:pt-20 max-md:pt-14 max-sm:pt-7'>
                 <div className='flex gap-12 max-xl:gap-9 max-md:gap-6 max-xl:flex-wrap max-xl:justify-center'>
 
@@ -42,8 +35,8 @@ const FaqSection = () => {
                         </div>
 
 
-                        <div className='mt-4'>
-                            {FAQ_LIST.map((obj, i) => (
+                        <div className='mt-4 max-w-[552px] max-xl:max-w-none'>
+                            {FAQ_ITEM_LIST.map((obj, i) => (
                                 <div key={i} className='border-t border-solid border-[#C9CAD4] p-4'>
                                     <div
                                         className='flex items-center justify-between cursor-pointer'
