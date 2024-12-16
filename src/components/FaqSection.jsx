@@ -21,7 +21,7 @@ const FaqSection = () => {
                         <img
                             src="/assets/images/webp/working-girl-img.webp"
                             alt="working-girl"
-                            className='w-full max-w-[600px] max-xl:mx-auto max-lg:max-w-none sticky top-0'
+                            className='w-full max-w-[600px] max-xl:mx-auto max-xl:max-w-none sticky top-0'
                         />
                     </div>
 
@@ -37,7 +37,7 @@ const FaqSection = () => {
 
                         <div className='mt-4 max-w-[552px] max-xl:max-w-none'>
                             {FAQ_ITEM_LIST.map((obj, i) => (
-                                <div key={i} className='border-t border-solid border-[#C9CAD4] p-4'>
+                                <div key={i} className='border-t border-solid border-lightGrey p-4'>
                                     <div
                                         className='flex items-center justify-between cursor-pointer'
                                         onClick={() => toggleFAQ(i)}
@@ -63,7 +63,7 @@ const FaqSection = () => {
                                 </div>
                             ))}
                         </div>
-                        <div className='w-[116px] mt-6'>
+                        <div className='w-[113px] mt-6'>
                             <CommonButton CustomButton='Get a demo' />
                         </div>
                     </div>

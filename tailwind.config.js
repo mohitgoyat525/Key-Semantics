@@ -25,6 +25,7 @@ module.exports = {
         offWhite: "#F7F9FB",
         darkPurple: "#24254B",
         offBlue: "#111235",
+        lightGrey: "#C9CAD4",
       },
     },
   },

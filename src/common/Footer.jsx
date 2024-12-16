@@ -63,7 +63,7 @@ const Footer = () => {
             </p>
             <button
               type="submit"
-              className="border border-solid transition-all ease-linear duration-200 hover:bg-darkBlue border-darkSkyBLue rounded-full bg-darkSkyBLue text-white py-4 px-[32px] font-medium text-sm leading-[20px] min-w-[180px] mb-24 max-xl:mb-20 max-lg:mb-14 max-md:mb-8 max-sm:mb-5"
+              className="border border-solid transition-all ease-linear duration-200 hover:bg-darkBlue border-darkSkyBLue rounded-full bg-darkSkyBLue text-white py-4 px-[32px] font-medium text-sm leading-[20px] min-w-[180px] mb-24 max-xl:mb-20 max-lg:mb-16 max-md:mb-10 max-sm:mb-6"
             >
               Request a demo
             </button>
