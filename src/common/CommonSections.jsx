@@ -7,7 +7,7 @@ const CommonSections = ({ CommonText, btnText, SectionList, PeopleImg, myClass }
         <div className={`${myClass} flex items-center gap-12 max-lg:flex-wrap max-lg:justify-center`}>
          <div className='w-6/12 max-lg:w-full'>
                 <CommonHeading CustomHeading={CommonText} />
-                <ul className=' list-disc translate-x-6 max-sm:pt-3'>
+                <ul className=' list-disc translate-x-6 max-lg:pt-3'>
                     {SectionList.map((obj, i) => (
                         <li className='text-base font-normal leading-[28px] text-darkBlue max-w-[552px] max-xl:max-w-none' key={i}>{obj}</li>
                     ))}
