@@ -60,8 +60,11 @@ const FaqSection = () => {
                                             <CommonFaqDiscription CustomFaqText={obj.discriptionThree} />
                                         </div>
                                     )}
+                                    
                                 </div>
+                                
                             ))}
+                            <div className='border-t border-solid border-lightGrey'></div>
                         </div>
                         <div className='w-[113px] mt-6'>
                             <CommonButton CustomButton='Get a demo' />
