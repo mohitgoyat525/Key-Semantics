@@ -19,7 +19,7 @@ const Footer = () => {
           <FOOTER_LEFT_ICON />
         </p>
         <div className="flex items-center justify-center flex-col">
-          <h2 className="text-white font-bold text-[32px] text-center leading-[72px] max-lg:text-3xl max-md:text-2xl pt-24 max-xl:pt-20 max-lg:pt-16 max-md:pt-10 max-sm:pt-6">
+          <h2 className="text-white font-bold text-3xsm text-center leading-[72px] max-lg:text-3xl max-md:text-2xl pt-24 max-xl:pt-20 max-lg:pt-16 max-md:pt-10 max-sm:pt-6">
             How does KeySemantics work?
           </h2>
           <p className="font-normal text-base text-center text-white leading-[28px] pt-2 relative z-20">
@@ -58,7 +58,7 @@ const Footer = () => {
               className="bg-darkPurple w-[320px] mx-auto py-4 px-5 border border-solid border-offPurple rounded-full outline-none placeholder:text-lightPurple text-lightPurple font-normal placeholder:font-normal text-sm placeholder:text-sm leading-[20px] mt-2"
               placeholder="Phone (optional)"
             />
-            <p className="text-[10px] font-normal leading-[14px] text-center text-lightPurple pt-4 pb-6">
+            <p className="text-1sm font-normal leading-[14px] text-center text-lightPurple pt-4 pb-6">
               By submitting my contact information I agree to the KeySemantics Privacy Policy
             </p>
             <button

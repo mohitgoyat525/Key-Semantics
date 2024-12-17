@@ -17,6 +17,11 @@ module.exports = {
       "hero-image": "url('../public/assets/images/webp/hero-bg-img.webp')",
     },
     extend: {
+      fontSize: {
+        "3xsm": "32px",
+        '6lg': '64px',
+        '1sm':'10px'
+      },
       colors: {
         darkBlue: "#191A42",
         lightPurple: "#7C7DB9",
