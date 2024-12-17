@@ -28,7 +28,7 @@ const FaqSection = () => {
 
                     <div className='w-6/12 max-xl:w-full'>
                         <CommonHeading CustomHeading="Key Q&A" />
-                        <div className='translate-x-[18px]'>
+                        <div className='translate-x-[18px] max-sm:pt-4'>
                             {FAQ_TEXT.map((item, i) => (
                                 <CommonList CustomListText={item} />
                             ))}
