@@ -42,7 +42,7 @@ const FaqSection = () => {
                                             {obj.title}
                                         </h3>
                                         <div>
-                                            <p className={`transition-transform duration-300 ${expandedIndex === i ? 'rotate-180' : 'rotate-0'}`}> <img src="/assets/svg/arrow.svg" alt="arrow" /> </p>
+                                            <p className={`transition-transform duration-300 ${expandedIndex === i ? 'rotate-180' : 'rotate-0'}`}> <img src="/assets/images/svg/arrow.svg" alt="arrow" /> </p>
                                         </div>
                                     </div>
                                     {expandedIndex === i && (
