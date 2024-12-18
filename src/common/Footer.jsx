@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FOOTER_LEFT_ICON, FOOTER_RIGHT_ICON } from '../utils/icons'
+import { footerLeftIcon ,footerRightIcon } from '../utils/icons';
 
 const Footer = () => {
   const [name, setName] = useState('');
@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="bg-darkBlue h-full">
       <div className="container relative">
         <p className="absolute top-0 left-0 max-sm:hidden">
-          <FOOTER_LEFT_ICON />
+          <img src="/assets/svg/footer-left-layer.svg" alt="layer" />
         </p>
         <div className="flex items-center justify-center flex-col">
           <h2 className="text-white font-bold text-3xsm text-center leading-[72px] max-lg:text-3xl max-md:text-2xl pt-24 max-xl:pt-20 max-lg:pt-16 max-md:pt-10 max-sm:pt-6">
@@ -70,12 +70,12 @@ const Footer = () => {
           </form>
         </div>
         <p className="absolute bottom-0 right-0 max-sm:hidden">
-          <FOOTER_RIGHT_ICON />
+            <img src="/assets/svg/footer-right-layer.svg" alt="right-layer" />
         </p>
       </div>
-      <div className="bg-offBlue p-6">
+      <div className="bg-offBlue p-6 max-sm:p-4">
         <div className="container flex items-center justify-between max-sm:flex-col max-sm:justify-center">
-          <p className="text-xs font-normal text-lightPurple leading-[28px] max-sm:text-center">
+          <p className="text-xs font-normal text-lightPurple leading-[28px] max-sm:text-center max-sm:leading-6">
             ©2024 KeySemantics GmbH | Ramsenburgweg 24, 9100 Herisau, Switzerland
           </p>
           <p className="text-xs font-normal text-lightPurple leading-[28px] underline">info@keysemantics.ch</p>

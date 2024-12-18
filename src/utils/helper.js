@@ -2,7 +2,6 @@
 import SearchAnimationThree from '../lottie/server-search-one.json';
 import SearchAnimationTwo from '../lottie/server-search-two.json';
 import SearchAnimationOne from '../lottie/server-search-three.json';
-import { ARROW_ICON } from "./icons";
 export const KEY_SEMANTICS_LIST = [
   {
     cardImg: SearchAnimationOne,
@@ -30,7 +29,6 @@ export const FAQ_TEXT = [
 export const FAQ_ITEM_LIST = [
   {
     title: "Accordion Heading #one",
-    arrowImg: <ARROW_ICON />,
     discriptionOne:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     discriptionTwo:
@@ -42,7 +40,6 @@ export const FAQ_ITEM_LIST = [
   },
   {
     title: "Accordion Heading #two",
-    arrowImg: <ARROW_ICON />,
     discriptionOne:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     discriptionTwo:
@@ -54,7 +51,6 @@ export const FAQ_ITEM_LIST = [
   },
   {
     title: "Accordion Heading #three",
-    arrowImg: <ARROW_ICON />,
     discriptionOne:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     discriptionTwo:
@@ -66,7 +62,6 @@ export const FAQ_ITEM_LIST = [
   },
   {
     title: "Accordion Heading #four",
-    arrowImg: <ARROW_ICON />,
     discriptionOne:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     discriptionTwo:
