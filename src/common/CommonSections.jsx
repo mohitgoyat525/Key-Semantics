@@ -9,7 +9,7 @@ const CommonSections = ({ CommonText, btnText, SectionList, PeopleImg, myClass }
                 <CommonHeading CustomHeading={CommonText} />
                 <ul className=' list-disc translate-x-6 max-lg:pt-3'>
                     {SectionList.map((obj, i) => (
-                        <li className='text-base font-normal leading-[28px] text-darkBlue max-w-[552px] max-xl:max-w-none' key={i}>{obj}</li>
+                        <li className='text-base font-normal leading-[28px] pt-2 text-darkBlue max-w-[552px] max-xl:max-w-none' key={i}>{obj}</li>
                     ))}
                 </ul>
                 <div className='w-[113px] mt-6'>
@@ -17,7 +17,7 @@ const CommonSections = ({ CommonText, btnText, SectionList, PeopleImg, myClass }
                 </div>
             </div>
             <div className='w-6/12 max-lg:w-full'>
-                <img src={PeopleImg} alt="keySemantics" className='w-full max-w-[600px] max-lg:mx-auto max-lg:max-w-none'/>
+                <img src={PeopleImg} alt="keySemantics" className='w-full max-w-[600px] max-lg:mx-auto max-lg:max-w-none pointer-events-none'/>
             </div>
         </div>
        

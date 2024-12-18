@@ -21,7 +21,7 @@ const FaqSection = () => {
                         <img
                             src="/assets/images/webp/working-girl-img.webp"
                             alt="working-girl"
-                            className='w-full max-w-[600px] max-xl:mx-auto max-xl:max-w-none sticky top-0'
+                            className='w-full max-w-[600px] max-xl:mx-auto max-xl:max-w-none sticky top-0 pointer-events-none'
                         />
                     </div>
 

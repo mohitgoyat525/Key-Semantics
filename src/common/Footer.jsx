@@ -78,7 +78,7 @@ const Footer = () => {
           <p className="text-xs font-normal text-lightPurple leading-[28px] max-sm:text-center">
             ©2024 KeySemantics GmbH | Ramsenburgweg 24, 9100 Herisau, Switzerland
           </p>
-          <p className="text-xs font-normal text-lightPurple leading-[28px]">info@keysemantics.ch</p>
+          <p className="text-xs font-normal text-lightPurple leading-[28px] underline">info@keysemantics.ch</p>
         </div>
       </div>
     </footer>
